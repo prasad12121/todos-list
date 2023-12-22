@@ -15,18 +15,13 @@ const Form2 = () => {
 
   return (
 
-
-      
         <form onSubmit={submitForm}>
         <h1>Sign in</h1>
         <input placeholder='email' {...email} />
         <input placeholder='password' {...password} />
         <button type="submit">Sign in</button>
-
         </form>
-
-
-
+        
   )
 }
 
