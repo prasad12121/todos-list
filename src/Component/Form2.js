@@ -7,6 +7,7 @@ const Form2 = () => {
     const password= useInput("");
 
    const submitForm =(event)=>{
+      
     event.preventDefault();
     console.log(email.value);
     console.log(password.value);

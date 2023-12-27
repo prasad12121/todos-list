@@ -1,9 +1,12 @@
 
 //Load Local Data
 import React from "react";
+//import HookCounterOne from   "./Component4/HookCounterOne";
+import Counter from "./Component4/Counter";
+
 //import Form2 from "./Component/Form2";
 //import IndexPage from "./Component/IndexPage";
-import MyPage from "./Component3/MyPage";
+//import MyPage from "./Component3/MyPage";
  
 //import MyCard from "./Card";
 //import NotificationCard from "./Component/NotificationCard";
@@ -18,12 +21,8 @@ import MyPage from "./Component3/MyPage";
 export default function App() {
   return (
 
-
-   <MyPage/>
-
-
+<Counter/>
 
   );
-
 }
 
